@@ -1,0 +1,2959 @@
+﻿a1=0
+a2=0
+a3=0
+a4=0
+a5=0
+a6=0
+a7=0
+a8=0
+a9=0
+b1 = 0
+b2 = 0
+c = 0
+d = 'a'
+
+z = 0
+zo =	0
+ss = 0
+char a[10]
+
+
+
+void setup()
+{
+	LcdClear()
+	
+	zo = 0
+	
+}
+
+void loop()
+{
+	LcdBackLight()
+	b = DigitalRead(2)
+	
+	z = z + 1
+	if ( z>=10 )
+	{
+		for (i = 0; i < 5; i++)
+{
+		PrintLine("0")
+		Delay(500)
+
+}
+
+	
+		a1 = a[1]
+		a2 = a[2]
+		a3 = a[3]
+		a4 = a[4]
+		
+		if ( a1 ==  1&&	a2 == 2	)
+		{
+		d = 'a'
+			if ( c == 0 )
+			{
+PrintLine("a1")
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				break
+				if ( c == 1)
+				{
+				
+				PrintLine("a2")
+				
+
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					break
+					if ( c == 2)
+					
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						break
+						if ( c == 3)
+						
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								break
+								if ( c == 5)
+								
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										break
+										if ( c == 7)
+										
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											break
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												break
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													break
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														break
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															break
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																break
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	break
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		break
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			break
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+			
+			
+			
+		}
+		if (( a1 == 2 && a2 == 1) && 	(a3 == 1&& a4 == 1 ))
+		{
+		d = 'b'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+			
+		}
+		if (( a1 == 2&&	a2 == 1)&&(a3 == 2&&a4 ==  1 ))
+		{
+			d = 'c'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if (( a1 == 2&&	a2 == 1)&&	a3 == 1 )
+		{
+			d = 'd'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if ( a1 == 1 )
+		{
+			d = 'e'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if (( a1 == 1&&a2 == 1)&&(a3 = 2&&a4 == 1 ))
+		{
+			d = 'f'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if ( a1 == 2&&a2 == 2)
+		{
+			d = 'g'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if (( a1 == 1&&a2 == 1)&&(a3 == 1&&a4 == 1 ))
+		{
+			d = 'h'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if ( a1 == 1&&a2 == 1 )
+		{
+			d = 'i'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if ( (a1 == 1&&	a2 == 2)&&(a3 == 2&&a4 == 2 ))
+		{
+			d = 'j'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if (( a1 == 2&&a2 == 1)&&a3 == 2 )
+		{
+			d = 'k'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if ( (a1 == 1&&a2 == 2)&&(a3 == 1&&a4 == 1 ))
+		{
+			d = 'l'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if ( a1 == 2&&a2 == 2 )
+		{
+			d = 'm'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if ( a1 == 2&&a2 == 1 )
+		{
+			d = 'n'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if ( (a1 == 2&&a2 == 2)&&a3 == 2 )
+		{
+			d = 'o'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if (( a1 == 1&&a2 == 2)&&(a3 == 2&&a4 == 2) )
+		{
+			d = 'p'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if (( a1 == 2&&a2 == 2)&&(a3 == 1&&a4 == 2 ))
+		{
+			d = 'q'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if ( (a1 == 1&&a2 == 2)&&a3 == 1 )
+		{
+			d = 'r'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if ( (a1 == 1&&a2 == 1)&&a3 == 1 )
+		{
+			d = 's'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if ( a1 == 2 )
+		{
+			d = 't'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if ( (a1 == 1&&a2 == 1)&&a3 == 2 )
+		{
+			d = 'u'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if ( (a1 == 1&&a2 == 1)&&(a3 == 1&&a4 == 2) )
+		{
+			d = 'v'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if ( (a1 == 1&&a2 == 2)&&a3 == 2 )
+		{
+			d = 'w'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if ( (a1 == 2&&a2 == 1)&&(a3 == 1&&a4 == 2) )
+		{
+			d = 'x'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if ( (a1 == 2&&a2 ==1)&&(a3 == 2&&a4 == 2) )
+		{
+			d = 'y'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		if ( (a1 == 2&&a2 == 2)&&(a3 == 1&&a4 == 1) )
+		{
+			d = 'z'
+			if ( c == 0 )
+			{
+
+				LcdSetCursor(0, 0)
+				LcdPrint(d)
+				c = c + 1
+				if ( c == 1)
+				{
+					LcdSetCursor(0, 1)
+					LcdPrint(d)
+					c = c + 1
+					if ( c == 2)
+					{
+						LcdSetCursor(0, 2)
+						LcdPrint(d)
+						c = c + 1
+						if ( c == 3)
+						{
+							LcdSetCursor(0, 3)
+							LcdPrint(d)
+							c = c + 1
+							if ( c == 4)
+							{
+								LcdSetCursor(0, 4)
+								LcdPrint(d)
+								c = c + 1
+								if ( c == 5)
+								{
+									LcdSetCursor(0, 5)
+									LcdPrint(d)
+									c = c + 1
+									if ( c == 6)
+									{
+										LcdSetCursor(0, 6)
+										LcdPrint(d)
+										c = c + 1
+										if ( c == 7)
+										{
+											LcdSetCursor(0, 7)
+											LcdPrint(d)
+											c = c + 1
+											if ( c == 8)
+											{
+												LcdSetCursor(0, 8)
+												LcdPrint(d)
+												c = c + 1
+												if ( c == 9)
+												{
+													LcdSetCursor(0, 9)
+													LcdPrint(d)
+													c = c + 1
+													if ( c == 10)
+													{
+														LcdSetCursor(0, 10)
+														LcdPrint(d)
+														c = c + 1
+														if ( c == 11 )
+														{
+															LcdSetCursor(0, 11)
+															LcdPrint(d)
+															c = c + 1
+															if ( c == 12  )
+															{
+																LcdSetCursor(0, 12)
+																LcdPrint(d)
+																c = c + 1
+																if ( c == 13  )
+																{
+																	LcdSetCursor(0, 13)
+																	LcdPrint(d)
+																	c = c + 1
+																	if ( c == 14  )
+																	{
+																		LcdSetCursor(0, 14)
+																		LcdPrint(d)
+																		c = c + 1
+																		if ( c == 15  )
+																		{
+																			LcdSetCursor(0, 15)
+																			LcdPrint(d)
+																			c = c + 1
+																			if ( c == 16  )
+																			{
+																				LcdClear()
+																				c = 0
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+			
+		}
+		
+		a1 = 0
+		a2 = 0
+		a3 = 0
+		a4 = 0
+		a5= 0
+		a6 = 0 
+		a7 = 0
+		a8 = 0 
+		a9 = 0
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	zo = 0
+	
+	while(b == 1)
+	{
+		
+		PrintLine("_")
+		
+		zo = zo + 1
+		Delay(500)
+		b = DigitalRead(2)
+		z = 0
+		
+		
+		if ( b == 0 )
+		{
+			break
+		}
+		
+	}
+	
+	
+	
+	
+	if ( zo == 1 )
+	{
+		a[ss] = 1
+		PrintLine(zo)
+		zo = 0
+		ss=  ss+ 1
+	}
+	if ( zo >= 2 )
+	{
+		a[ss] = 2
+		
+		PrintLine(zo)
+		zo = 0
+		ss=  ss+ 1
+	}
+	
+	Delay(500)
+	
+	
+	
+	
+	
+}
